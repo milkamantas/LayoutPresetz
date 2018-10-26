@@ -1,0 +1,25 @@
+{
+    "name" : "Layout Presetz",
+    "identifier" : "layoutpresetz.plugin",
+    "version" : "1.0",
+    "description" : "Layout Presetz Made EZ",
+    "authorEmail" : "mantas@Mantasmilka.com",
+    "author" : "Ieva, David, Mantas",
+
+    "commands" : [
+    {
+      "script" : "SaveArtboardsLayout.js",
+      "handler" : "onRunSave",
+      "shortcut" : "command shift y",
+      "name" : "Save Layout",
+      "identifier" : "layoutpresetz.plugin.save"
+    },
+    {
+      "script" : "SaveArtboardsLayout.js",
+      "handler" : "onRunLoad",
+      "shortcut" : "command shift u",
+      "name" : "Load Layout",
+      "identifier" : "layoutpresetz.plugin.load"
+    }
+  ],
+}
